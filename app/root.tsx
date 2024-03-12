@@ -26,11 +26,11 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <Navbar/>
         <Outlet />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
+        <Navbar/>
       </body>
     </html>
   );

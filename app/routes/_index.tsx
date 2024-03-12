@@ -13,6 +13,7 @@ export default function Index() {
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
       <div className="title">
         <div className="welcome-image">
+
         </div>
 
       </div>
