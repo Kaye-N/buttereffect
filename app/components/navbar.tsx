@@ -6,18 +6,18 @@ import { Link } from '@remix-run/react';
 
 export default function Navbar() {
     return (
-        <footer style={{ width: '100%', height: '100%', backgroundColor: '#f0f0f0', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <nav style={{ width: '70%', height: '100%' }}>
-                <ul style={{ listStyleType: 'none', margin: 0, padding: 0, display: 'flex', justifyContent: 'center' }}>
-                    <li style={{ marginRight: '20px' }}>
-                        <a href="">
+        <footer style={{backgroundColor: '#edebe1', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <nav>
+                <ul style={{ listStyleType: 'none', display: 'flex', justifyContent: 'center' }}>
+                    <li>
+                        <Link to='/_index'>
                             <img
                                 src={homebutton}
                                 alt='Home button'>
                             </img>
-                        </a>
+                        </Link>
                     </li>
-                    <li style={{ marginRight: '20px' }}>
+                    <li>
                         <a href="">
                             <img
                                 src={aboutbutton}
@@ -25,7 +25,7 @@ export default function Navbar() {
                             </img>
                         </a>
                     </li>
-                    <li style={{ marginRight: '20px' }}>
+                    <li>
                         <a href="">
                             <img
                                 src={gallerybutton}
@@ -33,7 +33,7 @@ export default function Navbar() {
                             </img>
                         </a>
                     </li>
-                    <li style={{ marginRight: '20px' }}>
+                    <li>
                         <Link to='/profile'>
                             <img
                                 src={profilebutton}

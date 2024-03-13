@@ -1,5 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
-import homepage from '~/styles/home.css'
+import homepage from '~/styles/home.module.css'
+import '~/styles/home.module.css'
 
 export const meta: MetaFunction = () => {
   return [

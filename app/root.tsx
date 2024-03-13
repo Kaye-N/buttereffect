@@ -13,7 +13,8 @@ import styles from '~/styles/main.css'
 import Navbar from "./components/navbar";
 
 export const links: LinksFunction = () => [
-  ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : [{rel: 'styles', href: styles}]),
+  ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] 
+  : [{rel: 'styles', href: styles}])
 ];
 
 export default function App() {
