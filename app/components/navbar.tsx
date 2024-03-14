@@ -1,12 +1,12 @@
-import homebutton from 'public/homebutton.svg'
-import aboutbutton from 'public/aboutbutton.svg'
-import gallerybutton from 'public/gallerybutton.svg'
-import profilebutton from 'public/profilebutton.svg'
+import homebutton from 'public/homebutton.svg';
+import aboutbutton from 'public/aboutbutton.svg';
+import gallerybutton from 'public/gallerybutton.svg';
+import profilebutton from 'public/profilebutton.svg';
 import { Link } from '@remix-run/react';
 
 export default function Navbar() {
     return (
-        <footer style={{backgroundColor: '#edebe1', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        <footer style={{backgroundColor: '#edebe1', display: 'flex', justifyContent: 'center'}}>
             <nav>
                 <ul style={{ listStyleType: 'none', display: 'flex', justifyContent: 'center' }}>
                     <li>
