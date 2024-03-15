@@ -1,6 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
 import homepage from '~/styles/home.module.css'
-import '~/styles/home.module.css'
 
 export const meta: MetaFunction = () => {
   return [
@@ -14,7 +13,7 @@ export default function Index() {
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
       <div className="title">
         <div className="welcome-image">
-
+          <p id = 'Title'> This is the Homepage! 	&lt;3 </p>
         </div>
 
       </div>

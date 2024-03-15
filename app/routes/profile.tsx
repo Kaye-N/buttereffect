@@ -1,10 +1,12 @@
 import type { MetaFunction } from "@remix-run/node";
-import styles from './profile.module.css';
+
+import styles from '~/styles/profile.module.css'
+import welcomeimg from 'public/welcomeimage.jpg'
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Profile" },
+    { name: "Profile webpage for description", content: "Welcome to Profile Page!" },
   ];
 };
 
@@ -12,13 +14,21 @@ export default function Profile() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
       <div className="title">
-        <div className={styles.boxborder}> {/* Change this to css.boxborder */}
+        <div> {/* Change this to css.boxborder */}
             <img 
                 id="image"
-                src= '/welcomeimage.jpg'
+                src= {welcomeimg}
+                alt="welcome"
             />
+        </div>
+        <div id = 'text-box'>
+          <p>This is where text will be</p>
         </div>
       </div>
     </div>
   );
+}
+
+export function links(){
+  return [{rel: 'stylesheet', href: styles}]
 }

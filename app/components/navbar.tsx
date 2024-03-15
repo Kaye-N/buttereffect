@@ -9,16 +9,16 @@ export default function Navbar() {
         <footer style={{backgroundColor: '#edebe1', display: 'flex', justifyContent: 'center'}}>
             <nav>
                 <ul style={{ listStyleType: 'none', display: 'flex', justifyContent: 'center' }}>
-                    <li>
-                        <Link to='/_index'>
+                <li>
+                        <Link to='/index'>
                             <img
                                 src={homebutton}
-                                alt='Home button'>
-                            </img>
+                                alt='Home button'
+                            />
                         </Link>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="_blank">
                             <img
                                 src={aboutbutton}
                                 alt='About button'>
@@ -26,7 +26,7 @@ export default function Navbar() {
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="_blank">
                             <img
                                 src={gallerybutton}
                                 alt='Gallery button'>
