@@ -11,7 +11,7 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-      <div className="title">
+      <div>
         <div className="welcome-image">
           <p id = 'Title'> This is the Homepage! 	&lt;3 </p>
         </div>
