@@ -1,0 +1,9 @@
+#image {
+    width: 500px;
+    height: auto;
+}
+
+.boxborder { /* Change this to .boxborder */
+    border-style: solid;
+    border: 10px black;
+}
