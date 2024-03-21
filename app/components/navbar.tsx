@@ -10,7 +10,7 @@ export default function Navbar() {
             <nav>
                 <ul style={{ listStyleType: 'none', display: 'flex', justifyContent: 'center' }}>
                 <li>
-                        <Link to='/index'>
+                        <Link to='/homepage'>
                             <img
                                 src={homebutton}
                                 alt='Home button'
