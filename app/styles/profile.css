@@ -3,7 +3,11 @@
     height: auto;
 }
 
-.boxborder { /* Change this to .boxborder */
+#text-box{
+    border: 5px dashed #393940;
+}
+
+#box-border { /* Change this to .boxborder */
     border-style: solid;
     border: 10px black;
 }
