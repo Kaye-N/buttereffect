@@ -12,8 +12,10 @@ export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
       <div>
-        <div className="box">
-          
+        <div id="box">
+            <div id="text">
+                this is the text inside
+            </div>
         </div>
       </div>
     </div>
