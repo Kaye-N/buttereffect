@@ -15,7 +15,6 @@ export default function Index() {
         <div className="welcome-image">
           <p id = 'Title'> This is the Homepage! 	&lt;3 </p>
         </div>
-
       </div>
     </div>
   );
