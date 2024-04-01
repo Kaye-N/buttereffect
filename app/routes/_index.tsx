@@ -14,7 +14,7 @@ export default function Index() {
       <div>
         <div id="box">
             <div id="text">
-                this is the text inside
+                <p>This is what text looks like. Lorem ipsum dore rerum.</p>
             </div>
         </div>
       </div>

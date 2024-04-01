@@ -12,11 +12,6 @@ import {
 import styles from './styles/main.css';
 import Navbar from "./components/navbar";
 
-export const links: LinksFunction = () => [
-  ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] 
-  : [{rel: 'styles', href: styles}])
-];
-
 export default function App() {
   return (
     <html lang="en">
@@ -26,7 +21,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body id="background">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
@@ -36,3 +31,8 @@ export default function App() {
     </html>
   );
 }
+
+export const links: LinksFunction = () => [
+  ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] 
+  : [{rel: 'styles', href: styles}])
+];
